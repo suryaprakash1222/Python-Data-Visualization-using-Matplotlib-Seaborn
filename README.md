@@ -1,8 +1,15 @@
 # Python Data Visualization using Matplotlib & Seaborn
+
 ## Introduction
 This repository showcases my hands-on practice and learning journey with Python data visualization using Matplotlib and Seaborn. The code demonstrates the implementation of a variety of visualization techniques, including line charts, bar charts, stacked bar charts, grouped (clustered) bar charts, histograms, scatter plots, heatmaps, and multiple plots on a single canvas.
 Through this project, I explored different plotting functions, formatting options, colors, legends, annotations, layouts, and styling techniques.
-This repository reflects my practical experience with creating clear, informative, and visually appealing charts for data analysis and reporting.
+
+## Technologies Used
+- Python
+- Matplotlib
+- Seaborn
+- NumPy
+- Pandas
 
 ## Python Code
 ```python
@@ -46,6 +53,9 @@ plt.ylabel("yield in tons")
 plt.legend()
 plt.title("Fruits production in cold climatic region")
 plt.savefig("V2_yield_of_oranges_vs_apples_over_years")
+### Output
+<img width="859" height="554" alt="V2_yield_of_oranges_vs_apples_over_years" src="https://github.com/user-attachments/assets/9e7d891a-0d1f-4810-8fa0-d3e74498015d" />
+
 #=============================================================================
 # for quick formatting use fmt-like "markertypelinestylelinecolour"
 plt.figure(figsize=(10,6)) # we can change canvas size by figsize
@@ -267,3 +277,7 @@ plt.tight_layout(pad=2)
 fig.savefig("multiple charts together.png")
 ```
 #=========================================================================
+## Conclusion
+
+This project represents my practical learning and hands-on experience with Python data visualization using Matplotlib and Seaborn. It demonstrates my understanding of creating, customizing, and presenting different types of charts for effective data analysis. I will continue expanding this repository by exploring more visualization techniques and real-world datasets.
+
