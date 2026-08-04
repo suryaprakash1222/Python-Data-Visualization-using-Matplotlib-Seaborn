@@ -54,7 +54,7 @@ plt.legend()
 plt.title("Fruits production in cold climatic region")
 plt.savefig("V2_yield_of_oranges_vs_apples_over_years")
 ### Output
-<img width="859" height="554" alt="V2_yield_of_oranges_vs_apples_over_years" src="https://github.com/user-attachments/assets/9e7d891a-0d1f-4810-8fa0-d3e74498015d" />
+
 
 #=============================================================================
 # for quick formatting use fmt-like "markertypelinestylelinecolour"
