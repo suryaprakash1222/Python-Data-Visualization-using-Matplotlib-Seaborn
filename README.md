@@ -298,7 +298,7 @@ plt.tight_layout(pad=2)
 fig.savefig("multiple charts together.png")
 ```
 ### Output
-![Multiple Charts](images/multiple charts together.png)
+![Multiple Charts](images/multiple_charts_together.png)
 #=========================================================================
 ## Conclusion
 This project represents my practical learning and hands-on experience with Python data visualization using Matplotlib and Seaborn. It demonstrates my understanding of creating, customizing, and presenting different types of charts for effective data analysis. I will continue expanding this repository by exploring more visualization techniques and real-world datasets.
