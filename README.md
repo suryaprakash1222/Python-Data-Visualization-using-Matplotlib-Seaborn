@@ -53,8 +53,10 @@ plt.ylabel("yield in tons")
 plt.legend()
 plt.title("Fruits production in cold climatic region")
 plt.savefig("V2_yield_of_oranges_vs_apples_over_years")
+```
 ### Output
 ![Line chart](images/V2_yield_of_oranges_vs_apples_over_years.png)
+```python
 #=============================================================================
 # for quick formatting use fmt-like "markertypelinestylelinecolour"
 plt.figure(figsize=(10,6)) # we can change canvas size by figsize
@@ -117,8 +119,10 @@ sns.scatterplot(x="sepal_length",y="sepal_width",hue="species",s=100,
                                               data=flower_df)
 plt.title("sepal dimension")
 plt.savefig("V2_scatterplot_rel_sep_len_and_sep_wid")
+```
 ### Output
 ![Scatter plot](images/V2_scatterplot_rel_sep_len_and_sep_wid.png)
+```python
 #==========================================================================
 # building and customizing histogram
 print(flower_df.describe()) # this gives statistical analysis of each column
@@ -146,8 +150,10 @@ plt.ylabel("Frequency")
 plt.legend()
 plt.title("distribution of sepal width")
 plt.savefig("2-histogram_sepal_width")
+```
 ### Output
 ![Grouped Histogram](images/2-histogram_sepal_width.png)
+```python
 #=====================================================================
 plt.figure(figsize=(10,5))
 plt.hist([flower_df[flower_df["species"]=="setosa"]["sepal_width"],
@@ -162,8 +168,10 @@ plt.ylabel("Frequency")
 plt.legend()
 plt.title("distribution of sepal width")
 plt.savefig("stacked-histogram_sepal_width")
+```
 ### Output
 ![Stacked Histogram](images/stacked-histogram_sepal_width.png)
+```python
 #=========================================================================
 # creating bar chart and line chart together
 plt.figure(figsize=(10,5))
@@ -218,8 +226,10 @@ sns.barplot(x="day",y="total_bill",hue="sex",data=tips_df,width=0.4,
             palette=["red","blue"])
 plt.legend(loc="upper right") # control position of legend
 plt.savefig("sns_avg_total_bill")
+```
 ### Output
 ![Seaborn Bar plot](images/sns_avg_total_bill.png)
+```python
 # sns.barplot, by default calculate mean,but we can change the statistics
 # to sum,max,min,median by using estimator=
 #========================================================================
@@ -232,8 +242,10 @@ plt.figure()
 sns.heatmap(flights_t_df,annot=False,fmt="d",cmap="Reds")
 plt.title("no. of passengers on flight")
 plt.savefig("heatmap_flights_df")
+```
 ### Output
 ![Heat Map](images/heatmap_flights_df.png)
+```python
 # Note:- annot=true will show value in cell in heatmap,
 # fmt:- control display whether integer or decimal, cmap=color map"""
 #=====================================================================
@@ -284,12 +296,11 @@ axes[1,2].set_title("no. of passengers on flight")
 fig.suptitle("multiple charts together")
 plt.tight_layout(pad=2)
 fig.savefig("multiple charts together.png")
+```
 ### Output
 ![Multiple Charts](images/multiple charts together.png)
-```
 #=========================================================================
 ## Conclusion
-
 This project represents my practical learning and hands-on experience with Python data visualization using Matplotlib and Seaborn. It demonstrates my understanding of creating, customizing, and presenting different types of charts for effective data analysis. I will continue expanding this repository by exploring more visualization techniques and real-world datasets.
 
 ## Author
